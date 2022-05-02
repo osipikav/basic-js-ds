@@ -35,7 +35,6 @@ function removeKFromList(l, k) {
   while (nextN !== null) {
     if (nextN.value == k) {
       thisN.next = nextN.next;
-
       if (thisN.next == null) break;
     }
     thisN = thisN.next;
